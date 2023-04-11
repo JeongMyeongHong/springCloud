@@ -1,0 +1,4 @@
+transaction:
+  Data:
+    Name: "zipkin"
+    Port: 9411
