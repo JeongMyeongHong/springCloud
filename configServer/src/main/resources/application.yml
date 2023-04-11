@@ -6,7 +6,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/JeongMyeongHong/springCloud.git # 컨피그 파일(yaml)이 저장된 깃 주소.(주의. 트리 내부가 아닌 루트)
+          uri: https://github.com/JeongMyeongHong/springCloud # 컨피그 파일(yaml)이 저장된 깃 주소.(주의. 트리 내부가 아닌 루트)
+          search-paths: config/* # 컨피그 파일이 저장된 트리
           default-label: main # 위의 깃 주소의 브랜치명
 
 ## actuator 설정
