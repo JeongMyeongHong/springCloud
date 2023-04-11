@@ -1,5 +1,4 @@
-spring:
-  datasource:
-    uri:myEnvironment
-    username: root
-    password: root
+client:
+  Data:
+    Col1: "name"
+    Col2: "age"
